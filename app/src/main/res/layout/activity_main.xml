@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo_uteq"
+        android:layout_width="271dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        android:contentDescription="Logo UTEQ"
+        android:src="@drawable/logou" />
+
+    <TextView
+        android:id="@+id/subtitulo_universidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="UNIVERSIDAD TÉCNICA ESTATAL DE QUEVEDO"
+        android:textAlignment="center"
+        android:textColor="#2D7814"
+        android:textColorLink="#438C35"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/boton_noticias"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:padding="15dp"
+        android:text="Noticias"
+        android:textColorLink="#21E7AB"
+        app:cornerRadius="25dp" />
+
+    <Button
+        android:id="@+id/boton_videos"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:text="Videos Educativos"
+        android:textColor="@color/white"
+        android:textColorHint="#9D1B1B"
+        app:cornerRadius="25dp" />
+
+    <Button
+        android:id="@+id/boton_reglamento"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Reglamento"
+        android:layout_marginTop="20dp" android:padding="15dp"
+        app:cornerRadius="25dp" />
+
+</LinearLayout>
